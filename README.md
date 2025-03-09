@@ -12,7 +12,11 @@
             text-align: center;
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
         }
 
         h1 {
@@ -23,14 +27,6 @@
         p {
             font-size: 1.2rem;
             color: #39FF14;
-        }
-
-        .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
         }
 
         .btn {
@@ -55,10 +51,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Bem-vindo ao Futuro</h1>
-        <p>Explore um mundo de tecnologia avançada e inovação.</p>
-        <a href="https://pay.kiwify.com.br/0LgCEB7" class="btn">Comprar</a>
-    </div>
+    <h1>Bem-vindo ao Futuro</h1>
+    <p>Explore um mundo de tecnologia avançada e inovação.</p>
+    <a href="https://pay.kiwify.com.br/0LgCEB7" class="btn">Comprar</a>
 </body>
 </html>
